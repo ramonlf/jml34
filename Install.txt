@@ -1,0 +1,18 @@
+Deberiamos entrar por ssh a cdmon:
+ssh ramon46@ssh.ramon.com.mialias.net
+Pondriamos la contraseña
+
+cd .. 
+cd web
+Para irnos a la carpeta web
+
+mkdir backUpJoomla
+cd backUpJoomla
+para crear una carpeta donde llevar la copia y situarnos sobre esa misma
+
+git init
+git remote add conexion https://github.com/ramonlf/jml34
+para iniciar git y una conexion al repositorio github
+
+git pull conexion master
+para traer todo su interior
